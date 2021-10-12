@@ -9,6 +9,13 @@
 - Jenkins
 - IntelliJ (Match 2019 0r, later version)
 
+Overview:
+=========
+There are two components in scope for our workshop.
+
+1. Product Catalog application (Consumer). It provides a console interface to query the Product service for product information.
+2. Product Service (Provider). Provides useful things about products, such as listing all products and getting the details of an individual product.
+
 
 Get Started:
 ============
