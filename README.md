@@ -29,7 +29,7 @@ Step 1: Simple Consumer calling Provider:
 =========================================
 - Check out the brunch {step 1}
 
-You can see the client interface we created in 
+We can see the client interface we created in
 consumer/src/main/au/com/dius/pactworkshop/consumer/ProductService.java:
 
 @Service
