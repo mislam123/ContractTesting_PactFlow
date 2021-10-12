@@ -27,8 +27,33 @@ Now follow below steps to build, publish and run for the contract testing.
 
 Step 1: Simple Consumer calling Provider:
 =========================================
-Check out the brunch {step 1}
-We can run the client with 
+- Check out the brunch {step 1}
+
+We can see the client interface we created in consumer/src/main/au/com/dius/pactworkshop/consumer/ProductService.java:
+
+@Service
+public class ProductService {
+
+    private final RestTemplate restTemplate;
+
+    @Autowired
+    public ProductService(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
+
+    public List<Product> getAllProducts() {
+        return restTemplate.exchange("/products",
+                HttpMethod.GET,
+                null,
+                new ParameterizedTypeReference<List<Product>>(){}).getBody();
+    }
+
+    public Product getProduct(String id) {
+        return restTemplate.getForEntity("/products/{id}", Product.class, id).getBody();
+    }
+}
+
+Now we can run the client with 
 > ./gradlew consumer:bootRun
  - it should fail with the error below, because the Provider is not running.
 Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8085/products": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
