@@ -13,10 +13,9 @@
 Get Started:
 ============
 
-Clone the project:
-https://github.com/pact-foundation/pact-workshop-jvm-spring
+Clone the project this reposatory: {project reposatory link}
 
-Now follow step by step to build, publish and run for the contract testing.
+Now follow below steps to build, publish and run for the contract testing.
 
 
 Step # 1:
