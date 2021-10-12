@@ -20,14 +20,15 @@ There are two components in scope for our workshop.
 Get Started:
 ============
 
-Clone the project this reposatory: {project reposatory link}
+Clone the master brunch of the ContractTesting_PactFlow project: {project reposatory link}
+You will get the core framework/ code to work with in step by step.
 
 Now follow below steps to build, publish and run for the contract testing.
 
 
-Step # 1:
-=========
-Check out the brunch step 1
+Step 1: Simple Consumer calling Provider:
+=========================================
+Check out the brunch {step 1}
 We can run the client with 
 > ./gradlew consumer:bootRun
  - it should fail with the error below, because the Provider is not running.
