@@ -29,7 +29,8 @@ Step 1: Simple Consumer calling Provider:
 =========================================
 - Check out the brunch {step 1}
 
-We can see the client interface we created in consumer/src/main/au/com/dius/pactworkshop/consumer/ProductService.java:
+You can see the client interface we created in 
+consumer/src/main/au/com/dius/pactworkshop/consumer/ProductService.java:
 
 @Service
 public class ProductService {
@@ -52,6 +53,7 @@ public class ProductService {
         return restTemplate.getForEntity("/products/{id}", Product.class, id).getBody();
     }
 }
+
 
 Now we can run the client with 
 > ./gradlew consumer:bootRun
