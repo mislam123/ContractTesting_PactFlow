@@ -31,7 +31,7 @@ Step 1: Simple Consumer calling Provider:
 - Check out the brunch {step 1}
 
 We can see the client interface we created in
-\\consumer\src\main\java\com\freddie\pact\consumer\service.
+\\consumer\src\main\java\com\freddie\pact\consumer\service\CustomerService.java
 
 
 @Service
@@ -72,7 +72,7 @@ public class CustomerService {
  
 
 Now we can run the client with 
-> ./gradlew consumer:bootRun
+> ./gradlew service:bootRun
 
  - it should fail with the error below, because the Provider is not running.
 Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:80**/products": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
