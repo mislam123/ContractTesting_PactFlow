@@ -33,8 +33,8 @@ Step 1: Simple Consumer calling Provider:
 We can see the client interface we created in
 \\consumer\src\main\java\com\freddie\pact\consumer\service.
 
-@Service
 
+@Service
 public class CustomerService {
 
     private static final String BASE_URI_CUSTOMERS = "/customers";
