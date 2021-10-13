@@ -34,6 +34,7 @@ We can see the client interface we created in
 \\consumer\src\main\java\com\freddie\pact\consumer\service.
 
 @Service
+
 public class CustomerService {
 
     private static final String BASE_URI_CUSTOMERS = "/customers";
