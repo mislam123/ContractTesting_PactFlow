@@ -75,4 +75,4 @@ Now we can run the client with
 > ./gradlew consumer:bootRun
 
  - it should fail with the error below, because the Provider is not running.
-Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8085/products": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:80**/products": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
