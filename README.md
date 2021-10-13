@@ -33,6 +33,7 @@ Step 1: Simple Consumer calling Provider:
 We can see the client interface we created in
 \\consumer\src\main\java\com\freddie\pact\consumer\service
 
+
 @Service
 public class CustomerService {
 
@@ -67,8 +68,9 @@ public class CustomerService {
     public void deleteCustomer(String id) {
         restTemplate.delete(BASE_URI_CUSTOMERS + SLASH + id);
     }
-
 }
+
+ 
 
 
 Now we can run the client with 
