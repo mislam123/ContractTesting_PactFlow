@@ -71,7 +71,6 @@ public class CustomerService {
 
  
 
-
 Now we can run the client with 
 > ./gradlew consumer:bootRun
 
