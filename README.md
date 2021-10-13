@@ -36,7 +36,6 @@ We can see the client interface we created in
 
 @Service
 public class CustomerService {
-
     private static final String BASE_URI_CUSTOMERS = "/customers";
     private static final String SLASH = "/";
 
