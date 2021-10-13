@@ -31,11 +31,11 @@ Step 1: Simple Consumer calling Provider:
 - Check out the brunch {step 1}
 
 We can see the client interface we created in
-\\consumer\src\main\java\com\freddie\pact\consumer\service
-
+\\consumer\src\main\java\com\freddie\pact\consumer\service.
 
 @Service
 public class CustomerService {
+
     private static final String BASE_URI_CUSTOMERS = "/customers";
     private static final String SLASH = "/";
 
@@ -68,7 +68,6 @@ public class CustomerService {
         restTemplate.delete(BASE_URI_CUSTOMERS + SLASH + id);
     }
 }
-
  
 
 Now we can run the client with 
