@@ -33,7 +33,7 @@ Step 1: Simple Consumer calling Provider:
 - Check out the brunch {step 1}
 
 We can see the client interface we created in
-\\consumer\src\main\java\com\freddie\pact\consumer\service\CustomerService.java
+    \\consumer\src\main\java\com\freddie\pact\consumer\service\CustomerService.java
 
 
     @Service
