@@ -1,17 +1,19 @@
 # Contract Testing Workshop
+This workshop is setup with a number of steps that can be run through. Each step is in a branch, so to run through a step of the workshop just check out the branch for that step (i.e. git checkout step1).
 
 # Pre-requirements:
-- Java 8
-- Spring Boot
-- Junit 5
-- Pact
-- Pactflow (SAAS version of pact broker)
-- Jenkins
-- IntelliJ (Match 2019 0r, later version)
-- Git
+    - Java 8
+    - Spring Boot
+    - Junit 5
+    - Pact
+    - Pactflow (SAAS version of pact broker)
+    - Jenkins
+    - IntelliJ (Match 2019 0r, later version)
+    - Git
 
 Overview:
 =========
+This workshop is aimed at demonstrating core features and benefits of contract testing with Pact.
 There are two components in scope for our workshop.
 
 1. Product Catalog application (Consumer). It provides a console interface to query the Product service for product information.
