@@ -32,7 +32,7 @@ Step 1: Simple Consumer calling Provider
 =========================================
 Check out the brunch {step 1}
 
-First of all, we can check the configaration is set up in consumer ....
+At first, we can check the configaration is set up in consumer ....
     \\consumer\src\main\java\com\freddie\pact\consumer\configaration\ConsumerConfiguration.java
 
     @Configuration
@@ -44,7 +44,7 @@ First of all, we can check the configaration is set up in consumer ....
         }
     }
 
-We can see the client interface we created in ...
+Then we can see the client interface we created in ...
     \\consumer\src\main\java\com\freddie\pact\consumer\service\CustomerService.java
 
 
