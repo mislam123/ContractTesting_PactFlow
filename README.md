@@ -36,13 +36,13 @@ We can see the client interface we created in
 \\consumer\src\main\java\com\freddie\pact\consumer\service\CustomerService.java
 
 
-@Service
-public class CustomerService {
+    @Service
+    public class CustomerService {
 
-    private static final String BASE_URI_CUSTOMERS = "/customers";
-    private static final String SLASH = "/";
+        private static final String BASE_URI_CUSTOMERS = "/customers";
+        private static final String SLASH = "/";
 
-    private final RestTemplate restTemplate;
+        private final RestTemplate restTemplate;
 
     @Autowired
     public CustomerService(RestTemplate restTemplate) {
@@ -70,7 +70,7 @@ public class CustomerService {
     public void deleteCustomer(String id) {
         restTemplate.delete(BASE_URI_CUSTOMERS + SLASH + id);
     }
-}
+  }
  
 
 Now we can run the client with 
