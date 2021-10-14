@@ -28,7 +28,7 @@ Get Started:
 Now follow below steps to build, publish and run for the contract testing.
 
 
-Step 1: Simple Consumer calling Provider:
+Step 1: Simple Consumer calling Provider
 =========================================
 Check out the brunch {step 1}
 
