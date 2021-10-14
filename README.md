@@ -2,14 +2,14 @@
 This workshop is setup with a number of steps that can be run through. Each step is in a branch, so to run through a step of the workshop just check out the branch for that step (i.e. git checkout step1) or, check out the branch by the IDE.
 
 # Pre-requirements:
-    - Java 8
-    - Spring Boot
-    - Junit 5
-    - Pact
-    - Pactflow (SAAS version of pact broker)
-    - Jenkins
-    - IntelliJ (Match 2019 0r, later version)
-    - Git
+   - Java 8
+   - Spring Boot
+   - Junit 5
+   - Pact
+   - Pactflow (SAAS version of pact broker)
+   - Jenkins
+   - IntelliJ (Match 2019 0r, later version)
+   - Git
 
 Overview:
 =========
