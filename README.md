@@ -91,3 +91,10 @@ Now we can run the client with
  - it should fail with the error below, because the Provider is not running.
 
      Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:80**/products": Connection refused: connect;      nested exception is java.net.ConnectException: Connection refused: connect
+
+Move on to step 2
+
+Step 2: Client Tested but integration fails
+===========================================
+
+
