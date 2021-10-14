@@ -25,11 +25,11 @@ Get Started:
 - Clone the master brunch of the "contract testing Workshop" (sfnta_im0153_contract_testing_workshop)from the bitbucket repo.
 - After cloning the reposatoty, you will get the core framework/ code to work with in step by step.
 
-Now follow below steps to build, publish and run for the contract testing.
+Now follow below steps to build, publish and run for the contract testing step by step.
 
 
 Step 1: Simple Consumer calling Provider
-=========================================
+========================================
 Check out the brunch {step 1}
 
 At first, we can check the configaration is set up in consumer ....
