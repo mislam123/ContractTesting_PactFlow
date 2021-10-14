@@ -1,4 +1,4 @@
-# ContractTesting_PactFlow
+# Contract Testing Workshop
 
 # Pre-requirements:
 - Java 8
