@@ -41,36 +41,36 @@ We can see the client interface we created in
 
         private static final String BASE_URI_CUSTOMERS = "/customers";
         private static final String SLASH = "/";
-
+        
         private final RestTemplate restTemplate;
 
     @Autowired
     public CustomerService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
-    }
+        }
 
     public Customer getCustomer(String id) {
         return restTemplate.getForObject(BASE_URI_CUSTOMERS + SLASH + id, Customer.class);
-    }
+        }
 
     public List<Customer> getCustomers() {
         return restTemplate.exchange(BASE_URI_CUSTOMERS, HttpMethod.GET, null,
                 new ParameterizedTypeReference<List<Customer>>() {
                 }).getBody();
-    }
+        }
 
     public Customer createCustomer(Customer customer) {
         return restTemplate.postForObject(BASE_URI_CUSTOMERS, customer, Customer.class);
-    }
+        }
 
     public void updateCustomer(Customer customer) {
         restTemplate.put(BASE_URI_CUSTOMERS, customer);
-    }
+        }
 
     public void deleteCustomer(String id) {
         restTemplate.delete(BASE_URI_CUSTOMERS + SLASH + id);
+        }
     }
-  }
  
 
 Now we can run the client with 
