@@ -30,9 +30,21 @@ Now follow below steps to build, publish and run for the contract testing.
 
 Step 1: Simple Consumer calling Provider:
 =========================================
-- Check out the brunch {step 1}
+Check out the brunch {step 1}
 
-We can see the client interface we created in
+First of all, we can check the configaration is set up in consumer ....
+    \\consumer\src\main\java\com\freddie\pact\consumer\configaration\ConsumerConfiguration.java
+
+    @Configuration
+    public class ConsumerConfiguration {
+
+    @Bean
+    RestTemplate customerRestTemplate(@Value("${provider.port:8080}") int port) {
+        return new RestTemplateBuilder().rootUri(String.format(http://localhost:%d, port)).build();
+        }
+    }
+
+We can see the client interface we created in ...
     \\consumer\src\main\java\com\freddie\pact\consumer\service\CustomerService.java
 
 
