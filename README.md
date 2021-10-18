@@ -38,9 +38,11 @@ We need to first create an HTTP client to make the calls to our provider service
 
 The Consumer has implemented the product service client which has the following:
 
-GET /products - Retrieve all products
-GET /products/{id} - Retrieve a single product by ID
+   - GET /products - Retrieve all products
+   - GET /products/{id} - Retrieve a single product by ID
 The diagram below highlights the interaction for retrieving a product with ID 10:
+
+![image](https://user-images.githubusercontent.com/5817220/137738501-2ce54ee1-6647-4bbd-8aa7-0f1e79a2049d.png)
 
 
 At first, we can check the configaration is set up in consumer ....
