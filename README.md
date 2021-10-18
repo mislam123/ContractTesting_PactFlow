@@ -32,6 +32,17 @@ Step 1: Simple Consumer calling Provider
 ========================================
 Check out the brunch {step 1}
 
+We need to first create an HTTP client to make the calls to our provider service:
+
+Simple Consumer
+
+The Consumer has implemented the product service client which has the following:
+
+GET /products - Retrieve all products
+GET /products/{id} - Retrieve a single product by ID
+The diagram below highlights the interaction for retrieving a product with ID 10:
+
+
 At first, we can check the configaration is set up in consumer ....
     \\consumer\src\main\java\com\freddie\pact\consumer\configaration\ConsumerConfiguration.java
 
