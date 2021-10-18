@@ -34,7 +34,7 @@ Check out the brunch {step 1}
 
 We need to first create an HTTP client to make the calls to our provider service:
 
-Simple Consumer
+![image](https://user-images.githubusercontent.com/5817220/137738279-3790464e-0e11-4e98-a7a8-40aa3f75b091.png)
 
 The Consumer has implemented the product service client which has the following:
 
